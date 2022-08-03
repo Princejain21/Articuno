@@ -15,34 +15,24 @@ export default function Home() {
                     <a className='mt-5 py-5 text-dark' href='/'>
                         <i className="fa fa-arrow-left"></i> Back</a>
                 </div>
-                <div className='col col-lg-8 col-md-6 col-sm-12'>
 
-                    <div className='row'>
-                        <div className='col col-md-6'>
-                            <Payment />
-
-
-                        </div>
-                        <div className='col col-md-6'>
-                            <Cart />
-
-
-                        </div>
-                    </div>
-                    <div className='row '>
-                        <div className=' ml-lg-auto col col-md-3 col-sm-5 my-2 '>
-                            <button className='btn btn-outline-dark p-3' style={{ borderRadius: "2rem" }}>Continue Shopping</button>
-                        </div>
-                        <div className=' col col-md-4 col-sm-6 my-2 '>
-                            <button className='btn btn-success p-3' style={{ borderRadius: "2rem" }}>Proceed To Payment</button>
-
-                        </div>
-
-                    </div>
+                <div className='col col-lg-4 col-md-12 col-sm-12'>
+                    <Payment />
 
 
                 </div>
+                <div className='col col-lg-4 col-md-12 col-sm-12'>
+                    <Cart />
 
+
+                </div>
+                <div className=' ml-auto col col-lg-2 col-md-3 col-sm-5 my-2 '>
+                    <button className='btn btn-outline-dark p-3' style={{ borderRadius: "2rem" }}>Continue Shopping</button>
+                </div>
+                <div className=' col col-md-4 col-lg-3 col-sm-6 my-2 '>
+                    <button className='btn btn-success p-3' style={{ borderRadius: "2rem" }}>Proceed To Payment</button>
+
+                </div>
 
 
 
